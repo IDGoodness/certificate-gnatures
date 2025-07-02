@@ -48,13 +48,13 @@ const Homepage = ({ navi }: HomepageProps) => {
                     name="name"
                     placeholder="Name"
                     required
-                    className="border border-gray-300 w-full rounded-xl p-3 pl-5 focus:outline-none focus:border-purple-800 focus:ring-purple-800 hover:outline-purple-800"
+                    className="border border-gray-300 w-full rounded-xl p-3 pl-5 focus:outline-none focus:border-green-500 focus:ring-green-500 hover:outline-green-500"
                     />
                 </div>
             </div>
             <button
                 type="submit"
-                className="bg-purple-900 text-white p-3 my-1 rounded-xl w-full hover:bg-purple-800">
+                className="bg-green-800 text-white p-3 my-1 rounded-xl w-full hover:bg-green-500">
                 Generate Certificate
             </button>
         </form>
