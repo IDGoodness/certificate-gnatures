@@ -88,7 +88,7 @@ const Certificate = () => {
 
                             <div className="text-center mx-auto">
                                 <p className="uppercase font-semibold text-3xl">
-                                certificate of attendance
+                                certificate of completion
                                 </p>
                                 <p className="text-center italic font-bold">
                                 this certificate is presented to:
