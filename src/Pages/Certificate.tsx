@@ -75,9 +75,9 @@ const Certificate = () => {
                     <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' />
                     <div className="relative w-[1000px] h-[600px] border-[20px] m-10 border-green-500 flex">
                         <div className="flex flex-col mx-auto">
-                            <div className="flex text-center mx-auto my-5">
+                            <div className="flex text-center mx-auto -my-10">
                                 <p className="mr-2">
-                                    <img src={logo} alt="logo" className="w-[120px]" />
+                                    <img src={logo} alt="logo" className="w-[150px]" />
                                 </p>
                                 {/* <p className="w-[1px] h-[50px] bg-purple-600 mt-4"></p> */}
                                 {/* <p className="mt-5 pr-16 font-bold text-xs w-[200px]">
@@ -130,12 +130,12 @@ const Certificate = () => {
                                 <img src={award} alt="award" />
                                 </div>
 
-                                <div className="mt-2">
+                                <div className="-mt-3">
                                 <p className="border-b-2 border-dashed border-purple-800 w-52">
                                     <img
                                     src={sign2}
                                     alt="signature"
-                                    className="w-[200px] h-[150px] -mb-12"
+                                    className="w-[150px] h-[200px] -mb-20"
                                     />
                                 </p>
                                 <p className="text-base font-semibold">

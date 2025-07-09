@@ -75,7 +75,7 @@ const Certificate = () => {
                     <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' />
                     <div className="relative w-[1000px] h-[600px] border-[20px] m-2 border-green-500 flex">
                         <div className="flex flex-col mx-auto">
-                            <div className="flex text-center mx-auto">
+                            <div className="flex text-center mx-auto -my-10 ">
                                 <p className="mr-2">
                                     <img src={logo} alt="logo" className="w-[150px]" />
                                 </p>
@@ -105,7 +105,7 @@ const Certificate = () => {
                                 <p className='uppercase text-xl mx-28 font-bold' >
                                 Primer Design and DNA Barcoding Analysis for Plant Species Identification and Authentication
                                 </p>
-                                <p className='mx-28 text-lg' > organized by G-Natres.</p>
+                                <p className='mx-28 text-lg' > organized by G-Natures.</p>
                                 <p className="font-bold text-lg">11th July, 2025</p>
                             </div>
 
@@ -155,7 +155,7 @@ const Certificate = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center -mt-9">
+            <div className="flex justify-center -mt-5">
                 <button
                 className="bg-green-500 p-2 rounded-xl hover:bg-purple-700 text-white z-10"
                 onClick={onButtonClick}
