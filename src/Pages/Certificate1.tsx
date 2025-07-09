@@ -34,25 +34,25 @@ const Certificate = () => {
     // const [currentDate, setCurrentDate] = useState('');
 
     // Function to generate current date in a formatted string
-    const generateCurrentDate = () => {
-        const today = new Date();
-        const day = today.getDate();
-        const month = today.toLocaleString('en-US', { month: 'long' });
-        const year = today.getFullYear();
+    // const generateCurrentDate = () => {
+    //     const today = new Date();
+    //     const day = today.getDate();
+    //     const month = today.toLocaleString('en-US', { month: 'long' });
+    //     const year = today.getFullYear();
         
-        // Add ordinal suffix to day
-        const getOrdinalSuffix = (day: number) => {
-            if (day > 3 && day < 21) return 'TH';
-            switch (day % 10) {
-                case 1: return 'ST';
-                case 2: return 'ND';
-                case 3: return 'RD';
-                default: return 'TH';
-            }
-        };
+    //     // Add ordinal suffix to day
+    //     const getOrdinalSuffix = (day: number) => {
+    //         if (day > 3 && day < 21) return 'TH';
+    //         switch (day % 10) {
+    //             case 1: return 'ST';
+    //             case 2: return 'ND';
+    //             case 3: return 'RD';
+    //             default: return 'TH';
+    //         }
+    //     };
         
-        return `${day}${getOrdinalSuffix(day)} ${month.toUpperCase()} ${year}`;
-    };
+    //     return `${day}${getOrdinalSuffix(day)} ${month.toUpperCase()} ${year}`;
+    // };
 
     useEffect(() => {
         const storedName = localStorage.getItem('name');
@@ -61,7 +61,7 @@ const Certificate = () => {
         });
         
         // Generate current date when component mounts/page reloads
-        setCurrentDate(generateCurrentDate());
+        // setCurrentDate(generateCurrentDate());
     }, []);
 
     
@@ -73,11 +73,11 @@ const Certificate = () => {
                 className="flex flex-col justify-center items-center bg-white relative"
                 >
                     <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' />
-                    <div className="relative w-[1000px] h-[600px] border-[20px] m-10 border-green-500 flex">
+                    <div className="relative w-[1000px] h-[600px] border-[20px] m-2 border-green-500 flex">
                         <div className="flex flex-col mx-auto">
-                            <div className="flex text-center mx-auto my-5">
+                            <div className="flex text-center mx-auto">
                                 <p className="mr-2">
-                                    <img src={logo} alt="logo" className="w-[120px]" />
+                                    <img src={logo} alt="logo" className="w-[150px]" />
                                 </p>
                                 {/* <p className="w-[1px] h-[50px] bg-purple-600 mt-4"></p> */}
                                 {/* <p className="mt-5 pr-16 font-bold text-xs w-[200px]">
@@ -130,12 +130,12 @@ const Certificate = () => {
                                 <img src={award} alt="award" />
                                 </div>
 
-                                <div className="mt-2">
-                                <p className="border-b-2 border-dashed border-purple-800 w-52">
+                                <div className="-mt-3">
+                                <p className="border-b-2 border-dashed border-purple-800 ">
                                     <img
                                     src={sign2}
                                     alt="signature"
-                                    className="w-[200px] h-[150px] -mb-12"
+                                    className="w-[150px] h-[200px] -mb-20"
                                     />
                                 </p>
                                 <p className="text-base font-semibold">
