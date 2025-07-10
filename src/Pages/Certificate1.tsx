@@ -7,6 +7,7 @@ import award from '../assets/award.png';
 import { toPng } from 'html-to-image';
 // import watermark from '../assets/watermark.jpg';
 import watermark1 from '../assets/watermark1.jpg';
+import genomaclogo from "../assets/genomac.png";
 
 
 const Certificate = () => {
@@ -78,14 +79,12 @@ const Certificate = () => {
                     <div className="relative w-[1000px] h-[600px] border-[20px] m-2 border-green-500 flex">
                         <div className="flex flex-col mx-auto">
                             <div className="flex text-center mx-auto -my-10 ">
-                                <p className="mr-2">
+                                <p className="mt-9">
+                                    <img src={genomaclogo} alt="Logo" className='w-[80px] ' />
+                                </p>
+                                <p className="" >
                                     <img src={logo} alt="logo" className="w-[150px]" />
                                 </p>
-                                {/* <p className="w-[1px] h-[50px] bg-purple-600 mt-4"></p> */}
-                                {/* <p className="mt-5 pr-16 font-bold text-xs w-[200px]">
-                                Genomac Institute Inc.
-                                <p className="-ml-2">| USA Incorporated</p>
-                                </p> */}
                             </div>
 
                             <div className="text-center mx-auto">
