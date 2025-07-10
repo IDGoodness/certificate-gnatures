@@ -74,7 +74,7 @@ const Certificate = () => {
                 ref={ref}
                 className="flex flex-col justify-center items-center bg-white relative"
                 >
-                    <img src={watermark1} alt="genes" className='absolute w-[1000px]  h-[600px] opacity-20 z-0 ' />
+                    <img src={watermark1} alt="genes" className='absolute w-[1000px]  h-[600px] opacity-10 z-0 ' />
                     <div className="relative w-[1000px] h-[600px] border-[20px] m-2 border-green-500 flex">
                         <div className="flex flex-col mx-auto">
                             <div className="flex text-center mx-auto -my-10 ">
