@@ -5,7 +5,7 @@ import sign2 from '../assets/sign2.png';
 import award from '../assets/award.png';
 // import award1 from '../assets/award1.png';
 import { toPng } from 'html-to-image';
-import watermark from '../assets/watermark.jpg';
+import watermark from '../assets/watermark1.jpg';
 
 const Certificate = () => {
     const ref = useRef(null);
@@ -72,7 +72,7 @@ const Certificate = () => {
                 ref={ref}
                 className="flex flex-col justify-center items-center bg-white relative"
                 >
-                    <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' />
+                    <img src={watermark} alt="genes" className='absolute w-[1000px] h-[600px] opacity-30 z-0 ' />
                     <div className="relative w-[1000px] h-[600px] border-[20px] m-10 border-green-500 flex">
                         <div className="flex flex-col mx-auto">
                             <div className="flex text-center mx-auto -my-10">
